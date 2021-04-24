@@ -1,0 +1,128 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+.header_main{
+    position: fixed;
+    background-color: #007765;
+    padding: 15px 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+.main_container, section.problem, div.hero{
+    max_width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.header_menu{
+    margin: 1%;
+    float: right;
+}
+.link{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 28px;
+    text-decoration: none;
+}
+.piper_net_is_here{
+    background: url("pipernet_is_here_large.png") center no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.section_text{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 80px;
+    text-align: center;
+}
+h1.problem, .main_container > p{
+    color: #007765;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 75px;
+    text-align: center;
+}
+section.problem, .team{
+    background-color: #EEEEEE;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+section.hero{
+    background: url("background_hero_large.png") center no-repeat;
+    background-size: cover;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.hero > p{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 48px;
+    line-height: 56.25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.ppc{
+    background-color: #FFFFFF;
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+.main_ppc, .problem_text{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37.5px;
+}
+.main_ppc_logo{
+    float: left;
+    padding-right: 48px
+}
+.card_team{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.figure{
+    width: 350px;
+    height: 283px;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 55px;
+}
+.name_card{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+    color: #007765;
+    margin: 0;
+}
+.figcaption i{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px
+}
+footer{
+    background-color: #333333;
+    padding: 48px 0 64px;
+}
+.footer_text p{
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px;
+    width: 540px;
+    height: 64px;
+    margin: auto;
+}
